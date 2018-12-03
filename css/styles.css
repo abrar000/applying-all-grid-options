@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: blue;
+  font-size: 2rem;
+}
+.container-wrapper{
+  margin-top: 5rem;
+}
+
+.container-wrapper .img-boxes{
+  display: grid;
+  grid-template-columns: repeat(auto-fit , 300px);
+ grid-template-rows: repeat(50px , auto);
+  grid-gap: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+.img-boxes img:hover{
+  border: 1px solid blue;
+  background-color: aquamarine;
+  transition: 0.9s;
+  /* transform: rotate(45deg); */
+  box-shadow: 4px 4px 20px 2px black;
+  border-radius: 5px;
+
+}
+
+/* bootstrap portion */
+
+.boot-header{
+  justify-content: center;
+  text-align: center;
+  color: brown;
+  margin-top: 2rem;
+}
+.custom-row{
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+/* zurb-foundation */
+.zurb{
+  text-align: center;
+  margin-top: 2rem;
+  color: aqua;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.grid-x{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+/* normal html/css */
+
+.image-grid .heading{
+  color: red;
+  font-weight: bold;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.grid-wrapper .images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top:2rem;
+  border-radius: 5px;
+}
+.img1{
+  margin-top: 1rem;
+}
+.grid-wrapper .images img{
+  border-radius: 10px;
+}
+.grid-wrapper .images img:hover{
+  border: 1px solid blue;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 5px 0px 17px 2px black;
+  border-radius: 0px;
+}
+
+
